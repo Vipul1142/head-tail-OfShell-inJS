@@ -46,7 +46,7 @@ function parseInputs() {
         }
     }
 }
-//initial function
+//everyone knows about it
 function init(fileName, lines, command) {
     if (isExist(fileName)) {
         if (!isNaN(lines)) {

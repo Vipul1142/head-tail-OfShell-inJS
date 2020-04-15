@@ -1,7 +1,7 @@
-let fileFunc = require("./fileFunctions");
+const { init, parseInputs } = require("./fileFunctions");
 
-let userInput = fileFunc.parseInputs();
+let userInput = parseInputs();
 const fileName = userInput.fileName;
 const lines = userInput.lines;
 
-fileFunc.init(fileName, lines, "head");
+init(fileName, lines, "head");
