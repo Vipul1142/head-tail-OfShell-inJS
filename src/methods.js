@@ -16,11 +16,9 @@ function splitData(fileData) {
 }
 
 //function to print N number of lines
-function printLines(splitedData) {
-    for (let key in splitedData) {
-        if (splitedData.hasOwnProperty(key)) {
-            console.log(splitedData[key]);
-        }
+function printLines(lines) {
+    for (let line in lines) {
+        console.log(lines[line]);
     }
 }
 
